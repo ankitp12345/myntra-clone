@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 35px;
+}
+.nav-logo{
+    margin-left: 2%;
+}
+
+.nav-category{
+    height: 30px;
+    display: flex;
+    min-width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-category a{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 12px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    text-transform:uppercase;
+    border-bottom: 3px solid transparent;
+    padding: 28px 0;
+  
+
+}
+.nav-category a:hover{
+    border-bottom: 3px solid red;
+}
+.nav-category a sup{
+    color: #ff3f6e;
+    font-size: 9px;
+    
+}
+.nav-search{
+    display: flex;
+    height: 10px;
+    min-width: 310px;
+    align-items: center;
+}
+.nav-search span{
+    font-size: 18px;
+    align-items: center;
+}
+.search-icon{
+    height: 10;
+    padding: 7px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+}
+input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    padding: 8px 10px 10px;
+    flex-grow: 1;
+    height: 30px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+}
+.action-icon{
+    font-size: 10px;
+    justify-content: center;
+}
+.action-container span{
+    color: #000000;
+}
+.nav-action{
+    display: flex;
+    min-width: 170px;
+    justify-content: space-evenly;
+}
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    
+}
+
+
+/* main-content */
+
+    /* banner img */
+
+.img-banner{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+    /* Text */
+.text-main{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .12em;
+    font-size: 20px;
+    margin: 50px 0 10px 20px;
+    max-height: 5em;
+    font-weight: 600;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+    /* offer images */
+
+.content-offer img{
+    height: 250px;
+    width: 180px;
+
+    
+}
+
+.content-offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.content-Discount img {
+
+        height: 250px;
+        width: 180px;
+}
+.content-Discount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+/* footer-part */
+
+footer{
+    background-color:#FAFBFC;
+    
+    height: auto;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.foot-shoplink{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+.footer-h3{
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.foot-shoplink a{
+    text-decoration: none;
+    color: #696b79;
+    display: block;
+    font-size: 12px;
+    
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.foot-shoplink-one a{
+    text-decoration: none;
+    color: #696b79;
+    display: block;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+
+.foot-experience .app-icon img{
+    height: 70px;
+    width: 80px;
+    margin-left: 10px;
+}
+.foot-experience .app-share a{
+    text-decoration: none;
+}
+.foot-experience .app-share i{
+    font-size: 18px;
+    margin-right: 4px;
+    color: black;
+}
+.copyright{
+    text-align: center;
+    color: #94969f;
+    background-color: #FAFBFC;
+    padding: 15px;
+    font-size: 15px;
+}
